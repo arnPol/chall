@@ -1,0 +1,74 @@
+body{
+	background: #649173;
+	background: -webkit-linear-gradient(to right, #DBD5A4, #649173);
+	background: linear-gradient(to right, #DBD5A4, #649173); 
+	margin-bottom: 50px;
+}
+
+.center{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: white;
+}
+
+
+
+/*img ocerelay*/
+
+.imgcontainer {
+  position: relative;
+  width: 20%;
+  left: 200px;
+  top: 150px;
+
+}
+
+.imgtcontainer {
+  position: relative;
+  width: 20%;
+  left: 500px;
+
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 0.9;
+}
+
+.imgtcontainer:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

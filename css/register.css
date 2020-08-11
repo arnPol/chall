@@ -1,0 +1,41 @@
+body{
+	background: #649173;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 30%;
+	border: 1px solid black;
+	max-width: 350px;
+	padding: 10px;
+	border-radius: 10px;	
+}
+
+.btn{
+	transition: all 0.8s;
+}
+
+.btn:hover{
+	transform: translateY(-8px);
+	transition: all 0.4s;
+}
+
+input[type=text], input[type=password]{
+	border: none;
+	margin: 3px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 
+}
+
+span{
+	font-weight: bold;
+}
+
+.btn .btn-success{
+	width: 150px;
+}

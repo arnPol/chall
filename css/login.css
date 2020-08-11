@@ -1,0 +1,52 @@
+body{
+	background: #649173;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#container{
+	position: relative;
+	top: 20%;
+	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#failed{
+	color: red;
+	left: 37.2%;
+	bottom: 8%;
+	position: relative;
+	font-weight: bold;
+}
+
+.jumbotron{
+	padding-left: 100px;
+	background: #f2709c !important;
+	background: linear-gradient(to right, #ff9489, #f27043) !important;
+	border-radius: 50%;
+
+}
+
+input{
+	height: 33px;
+	transition: all 0.8s;
+}
+
+.btn-success:hover{
+	transform: translateY(-7px);
+	transition: all 0.8s;
+}
+
+h2{
+	font-weight: bold !important;
+}
+
+.register{
+	width: 300px;
+	position: relative;
+	margin-top: 7px;
+	margin-left: 35px;
+}
