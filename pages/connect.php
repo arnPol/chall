@@ -23,7 +23,7 @@ if($submit){
 			$_SESSION['new_password'] = $password;
 
 			// Connect to mysql DB (ip, name, pass)
-			$con = mysqli_connect("127.0.0.1", "0sint1sAw3s0me", "fgjfV3B6Faqxga6c");
+			$con = mysqli_connect("127.0.0.1", "admin", "fgjfV3B6Faqxga6c");
 			if(!$con){
 				echo "Not connected to server";
 			}
